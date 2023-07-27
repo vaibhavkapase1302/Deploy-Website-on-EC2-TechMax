@@ -62,3 +62,9 @@ systemctl enable httpd
 ```
 systemctl start httpd
 ```
+
+Paste this IP in Browser
+
+<a href="35.79.220.250"> 35.79.220.250
+
+
