@@ -69,3 +69,4 @@ systemctl start httpd
 <a href="35.79.220.250"> 35.79.220.250
 
 
+<img src="https://github.com/vaibhavkapase1302/Deploy-Website-on-EC2-TechMax/blob/main/TechMax.png"  alt="TechMax EC2 Running Instances">
