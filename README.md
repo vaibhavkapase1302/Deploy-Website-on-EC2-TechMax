@@ -2,9 +2,9 @@
 Deploy Website on EC2
 
 Clone this repository 
-```html
-https://github.com/azeezsalu/techmax
-```
+
+<a href="https://github.com/azeezsalu/techmax"> https://github.com/azeezsalu/techmax
+
 
 ```html
 https://github.com/azeezsalu/techmax.git
@@ -21,4 +21,44 @@ https://github.com/azeezsalu/techmax.git
 * Open Windows CLI 
 * wite in terminal ```ssh -i "key-pair name" ec2-user@ip-address```
 
+Type these commands in cmd
 
+```
+sudo su
+```
+
+```
+yum update -y
+```
+
+```
+yum install -y httpd
+```
+
+```
+cd /var/www/html
+```
+
+```
+wget https://github.com/azeezsalu/techmax/archive/refs/heads/main.zip
+```
+
+```
+unzip main.zip
+```
+
+```
+cp -r techmax-main/* /var/www/html/
+```
+
+```
+rm -rf techmax-main main.zip
+```
+
+```
+systemctl enable httpd
+```
+
+```
+systemctl start httpd
+```
